@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.caixa{
+  width: 100%;
+  height: 110px;
+  background-color: rgb(49, 121, 20);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .wrapper-perfil{
+  width: 110px;
+  height: 110px;
+} */
+
+.perfil{
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: 6px;
+  
+}
+
+.opcoes{
+  display: flex;
+  flex-direction: row;
+  gap: 8em;
+  justify-items: center;
+  align-items: center;
+  list-style-type: none;
+}
