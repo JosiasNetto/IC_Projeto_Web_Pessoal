@@ -2,36 +2,134 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  ;
 }
+
 
 .caixa{
   width: 100%;
-  height: 110px;
-  background-color: rgb(49, 121, 20);
+  height: 12vh;
+  background-color: #5B9279;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* .wrapper-perfil{
-  computaria
-  width: 110px;
-  height: 110px;
-} */
-
-.perfil{
-  width: 95px;
-  height: 95px;
-  border-radius: 50%;
-  margin: 6px;
-  
+.cin_logo{
+  width: auto;
+  height: 70%;
+  margin: 2vh;
 }
 
-.opcoes{
+.ufpe_logo{
+  width: auto;
+  height: 70%;
+  margin: 2vh;
+
+}
+
+.opcoes_geral{
   display: flex;
   flex-direction: row;
-  gap: 8em;
+  gap: 20vh;
   justify-items: center;
   align-items: center;
   list-style-type: none;
 }
+
+.links{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.all_sobremim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 80vh;
+  margin: 3vh auto auto auto;
+  border: 3px solid black;
+  border-radius: 10%;
+  background-color: #7c8edf7e;
+
+}
+
+.perfil{
+  width: 15vh;
+  height: auto;
+  border-radius: 10%;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.textinho{
+  margin: 3vh;
+  width: 75%;
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+
+.caixa_aux{
+ height: 10vh;
+ width: 100%;
+ display: flex;
+ flex-direction: row; 
+}
+
+.caixa_baixo{
+  background-color: #5B9279;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+}
+
+.opcoes_caixa_baixo{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 1vh;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.fotos_icones{
+  width: auto;
+  height: 2vh;
+}
+
+.lista_baixo_geral{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+@media screen and (max-width: 600px) {
+  .opcoes_geral {
+    gap: 10px; /* Adjust as needed */
+  }
+
+  .all_sobremim {
+    width: 90%;
+  }
+
+  .perfil {
+    width: 10vh;
+  }
+
+  .textinho {
+    margin: 1vh;
+  }
+
+  .caixa_baixo {
+    flex-direction: row;
+    gap: 1em;
+  }
+}
+
