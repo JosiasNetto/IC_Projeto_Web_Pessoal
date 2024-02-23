@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 600px) {
   .opcoes_geral {
-    gap: 10px; /* Adjust as needed */
+    gap: 10px; 
   }
 
   .all_sobremim {
